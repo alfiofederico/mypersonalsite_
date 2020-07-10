@@ -1,0 +1,78 @@
+#main-header img {
+  width: 100%;
+  height: 100%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+.bg-black {
+  color: #ffffff;
+  background: #333333;
+}
+
+#main-header .port-item {
+  width: 30%;
+}
+
+#main-header .port-item:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+
+.fa-linkedin:hover {
+  color: #0e76a8 !important;
+}
+
+.fa-html5 {
+  color: #e34f26;
+}
+
+.fa-css3-alt {
+  color: #1680C0;
+}
+
+.fa-js-square {
+  color: #b9df10;
+}
+
+.fa-bootstrap {
+  color: #3f0581;
+}
+
+.fa-jira {
+  color: #290ada;
+}
+
+.fa-wordpress {
+  color:#21759b;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+input {
+  border: none;
+}
+
+.p-title {
+  text-decoration: none;
+  color: #333333;
+  
+}
+
+
+@media(min-width: 1199px){
+  .port-item {
+    padding: 3rem !important;
+  }
+}
